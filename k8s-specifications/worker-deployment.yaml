@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: 6shihab/example-voting-app_worker:58
+      - image: 6shihab/example-voting-app_worker:59
         name: worker
