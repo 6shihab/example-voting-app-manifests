@@ -1,11 +1,11 @@
-apiVersion: apps/v18
+apiVersion: apps/v
 kind: Deployment
 metadata:
   labels:
     app: worker
   name: worker
 spec:
-  replicas: 18
+  replicas: 
   selector:
     matchLabels:
       app: worker
@@ -15,5 +15,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: 6shihab/example-voting-app_worker:18
+      - image: 6shihab/example-voting-app_worker:
         name: worker

@@ -1,11 +1,11 @@
-apiVersion: apps/v18
+apiVersion: apps/v
 kind: Deployment
 metadata:
   labels:
     app: result
   name: result
 spec:
-  replicas: 18
+  replicas: 
   selector:
     matchLabels:
       app: result
@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: 6shihab/example-voting-app_result:18
+      - image: 6shihab/example-voting-app_result:
         name: result
         ports:
         - containerPort: 80
