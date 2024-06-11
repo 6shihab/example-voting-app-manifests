@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: 6shihab/example-voting-app_vote:60
+      - image: 6shihab/example-voting-app_vote:61
         name: vote
         ports:
         - containerPort: 80
